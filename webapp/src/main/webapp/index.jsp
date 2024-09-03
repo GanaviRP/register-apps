@@ -26,12 +26,14 @@
     <br>
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
     <button type="submit" class="registerbtn">Register</button>
+<p>hi</p>
   </div>
   <br>
   <div class="container signin">
     <br>
   <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
+
 
    <h1> Thank You </h1>
    
