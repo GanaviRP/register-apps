@@ -102,7 +102,7 @@ post {
    failure {
         emailext body: '''${SCRIPT, template="groovy-html.template"}''', 
                       subject: "${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} - Failed", 
-                      mimeType: 'text/html',to: "ganavirp48@gmail.com
+                      mimeType: 'text/html',to: "ganavirp48@gmail.com"
       }
       success {
             emailext body: '''${SCRIPT, template="groovy-html.template"}''', 
